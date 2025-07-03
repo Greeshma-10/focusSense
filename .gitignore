@@ -1,0 +1,27 @@
+# Ignore virtual environments
+venv/
+venv310/
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore compiled shared objects or extensions
+*.so
+*.dll
+*.pyd
+
+# Ignore large model files
+shape_predictor_68_face_landmarks.dat
+
+# Ignore packages or temporary files
+*.egg-info/
+dist/
+build/
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
